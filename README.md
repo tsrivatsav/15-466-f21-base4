@@ -1,10 +1,10 @@
-# (TODO: your game's title)
+# Recruiting Season
 
-Author: (TODO: your name)
+Author: Tejas Srivatsav
 
-Design: (TODO: In two sentences or fewer, describe what is new and interesting about your game.)
+Design: As a CS student from CMU, the player must navigate the crazy world of job recruiting. With big tech companies, startups, and trading firms all vying for the student's attention, the student has to optimize for salary, prestige, free time, and career advancement.
 
-Text Drawing: (TODO: how does the text drawing in this game work? Is text precomputed? Rendered at runtime? What files or utilities are involved?)
+Text Drawing: Text is rendered at runtime. TrueType fonts are loaded and processed with harfbuzz into glyphss.
 
 Screen Shot:
 
@@ -12,9 +12,10 @@ Screen Shot:
 
 How To Play:
 
-(TODO: describe the controls and (if needed) goals/strategy.)
+The up and down keys are used to move among various options. Use Enter to select your desired option. Press Enter to skip the text animation and display all of it. Press ESC to quit if the game feels too real.
 
-Sources: (TODO: list a source URL for any assets you did not create yourself. Make sure you have a license for the asset.)
+Sources:
+Text Drawing is based on code by [Xiaoqiao Xu and Fengying Yang](https://github.com/xuxiaoqiao/game-marios) and [Zhengyang Xia](https://github.com/zhengyangxia/15-466-f20-base4)
+Fonts used are variants of [Urbanist](https://fonts.google.com/specimen/Urbanist)
 
 This game was built with [NEST](NEST.md).
-
